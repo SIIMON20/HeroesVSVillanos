@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131212"
+    >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spiderman"
+        android:textColor="#ACA3A3"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="393dp"
+        android:layout_height="435dp"
+        android:layout_marginBottom="344dp"
+        android:contentDescription="@string/aja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/spiderman"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="383dp"
+        android:layout_height="382dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/el_joven_peter_parker_fue_mordido_por_una_ara_a_radioactiva_en_la_escuela_secundaria_la_mordedura_de_la_ara_a_lo_llev_a_desarrollar_habilidades_similares_a_las_del_ar_cnido_peter_gano_as_la_fuerza_la_velocidad_y_la_habilidad_de_trepar_por_las_paredes_m_s_un_extraordinario_sentido_que_le_avisaba_del_peligro_inminente_a_la_tr_gicamente_muerte_de_su_t_o_ben_peter_iniciar_a_su_lucha_contra_el_mal_como_el_asombroso_hombre_ara_a_historia_peter_benjamin_parker_es_hijo_de_los_agentes_de_la_c_i_a_mary_y_richard_parker_quienes_fueron_asesinados_en_el_extranjero_en_un_accidente_de_avi_n_como_esp_as_del_gobierno_de_ee_uu_cuando_peter_era_tan_solo_un_ni_o_despu_s_de_la_muerte_de_sus_padres_peter_se_ir_a_a_vivir_con_sus_t_os_ben_y_may_en_nueva_york"
+        android:textColor="#ACA3A3"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
